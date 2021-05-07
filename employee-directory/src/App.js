@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar";
 import SearchBar from './components/searchBar';
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
-import About from "./pages/About";
-// import Search from "./pages/Search";
+
+
 
 
 
@@ -18,9 +18,7 @@ function App() {
           <Navbar />
           <SearchBar/>
           <Wrapper>
-            <Route exact path="/" component={About} />
-            <Route exact path="/about" component={About} />
-            {/* <Route exact path="/search" component={Search} /> */}
+
           </Wrapper>
           <Footer />
         </div>

@@ -25,8 +25,8 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <Link
-                            to="/searchForm"
-                            className={window.location.pathname === "/searchform" ? "nav-link active" : "nav-link"}
+                            to="/search"
+                            className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
                         >
                             Search
             </Link>
