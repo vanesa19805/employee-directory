@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import Navbar from "./components/Navbar";
-import SearchBar from './components/searchBar';
+import Employee from "./pages/employee"
 import Wrapper from "./components/Wrapper";
-import Footer from "./components/Footer";
+
 
 
 
@@ -15,12 +14,11 @@ function App() {
   return (
       <Router>
         <div>
-          <Navbar />
-          <SearchBar/>
+           
           <Wrapper>
-
+             <Route exact path="/" component={Employee}  />
           </Wrapper>
-          <Footer />
+      
         </div>
       </Router>
 
