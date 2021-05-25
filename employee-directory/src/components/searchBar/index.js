@@ -10,21 +10,18 @@ function SearchForm(props) {
         <input
           value={props.search}
           onChange={props.handleInputChange}
-          name="breed"
-          list="breeds"
+          name="employee-name"
+          list="employee"
           type="text"
           className="form-control"
-          placeholder="Type in a dog breed to begin"
-          id="breed"
+          placeholder="search name of the employee"
+          id="employee"
         />
-        {/* <datalist id="employee">
-          {props.breeds.map(breed => (
-            <option value={breed} key={breed} />
+        {/* <datalist id="person">
+          {props.employees.map(person => (
+            <option value={person} key={person} />
           ))}
-        </datalist>
-        <button type="submit" onClick={props.handleFormSubmit} className="btn btn-success">
-          Search
-        </button> */}
+        </datalist> */}
       </div>
     </form>
   );

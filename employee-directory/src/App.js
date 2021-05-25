@@ -13,15 +13,12 @@ import Wrapper from "./components/Wrapper";
 function App() {
   return (
       <Router>
-        <div>
-           
+        <div> 
           <Wrapper>
              <Route exact path="/" component={Employee}  />
           </Wrapper>
-      
         </div>
       </Router>
-
   );
 }
 
